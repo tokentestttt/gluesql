@@ -26,7 +26,5 @@ jobs:
         git commit -m "Automated commit message"
 
     - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: 1658
+      run: git push -u origin new_branch
+
