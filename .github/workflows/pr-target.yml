@@ -23,7 +23,7 @@ jobs:
     - name: Make changes
       run: |
         # Your commands to make changes
-        echo "Making changes..."
+        echo "Making changes...$RANDOM"
 
     - name: Commit and push changes
       run: |
