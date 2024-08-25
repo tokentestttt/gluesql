@@ -22,8 +22,9 @@ jobs:
 
     - name: Make changes
       run: |
-        # Your commands to make changes
-        echo "Making changes...$RANDOM"
+        # Your commands to make changes, e.g., update a file
+        echo "New content $RANDOM" >> file.txt
+
 
     - name: Commit and push changes
       run: |
